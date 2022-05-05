@@ -19,5 +19,6 @@ public class TC_001 {
 		driver.findElement(By.cssSelector("input#txtPassword")).sendKeys("admin123");
 		//driver.findElement(By.cssSelector("input.button")).click();
 		driver.quit();
+		
 	}
 }
